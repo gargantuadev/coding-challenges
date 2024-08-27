@@ -31,7 +31,6 @@ You are welcome to add new challenges! Simply follow the structure used in the e
 - Create a new directory under the challenges folder.
 - Add a README.md file in the new directory with a description of the challenge, including input/output examples if necessary.
 - Add your solution in a language of your choice within the same directory.
-- Make a PR.
 
 
 ### Improving Existing Solutions
