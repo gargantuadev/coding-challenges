@@ -4,25 +4,15 @@ This problem was asked by Google.
 
 ### Problem explanation
 
-You are in an infinite 2D grid where you can move in any of the 8 directions:
+Imagine you're navigating a Cartesian plane where movement is allowed in any of the following 8 directions: right, left, up, down, up-left, up-right, down-left, down-right.
 
-| From (x, y) | To         |
-| ----------- | ---------- |
-| (x,y)       | (x+1, y)   |
-|             | (x - 1, y) |
-|             | (x, y+1)   |
-|             | (x, y-1)   |
-|             | (x-1, y-1) |
-|             | (x+1,y+1)  |
-
-You are given a sequence of points and the order in which you need to cover the points. Give the minimum number of steps in which you can achieve it. You start from the first point.
+You are provided with a series of points on this plane that you need to visit in a specific order. Your task is to determine the minimum number of steps required to visit all the points, starting from the first one.
 
 Example:
 
-`Input: [(0, 0), (1, 1), (1, 2)]`
+`Input: [(-1, -1), (0, 0), (0, 4), (0,3)]`
 
-`Output: 2`
+`Output: 6`
 
-Explanation: it takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move from (1, 1) to (1, 2).
-
-Credit to Daily Coding Problem for this challenge.
+It takes 1 move to go from (-1, -1) to (1, 1). It takes four more step to move from (0, 0) to (0, 3)
+and another step to move from (0, 4) to (0, 3).
