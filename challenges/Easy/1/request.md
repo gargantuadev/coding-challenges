@@ -1,7 +1,5 @@
 # [Easy] - Coding Challenge 1
 
-This problem was asked by Google.
-
 ### Problem explanation
 
 Imagine you're navigating a Cartesian plane where movement is allowed in any of the following 8 directions: right, left, up, down, up-left, up-right, down-left, down-right.
